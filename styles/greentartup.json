@@ -1,17 +1,17 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
-	"title": "Ember",
+	"title": "Greentartup",
 	"settings": {
 		"color": {
 			"duotone": [
 				{
 					"colors": [
-						"#FF3C00",
-						"#F4F0E6"
+						"#60B665",
+						"#2F5732"
 					],
 					"slug": "duotone-2",
-					"name": "Orange and white"
+					"name": "Dark and Light green"
 				}
 			],
 			"gradients": [
@@ -78,14 +78,9 @@
 			],
 			"palette": [
 				{
-					"color": "#F4F0E6",
+					"color": "#4B914E",
 					"name": "Base",
 					"slug": "base"
-				},
-				{
-					"color": "#FF3C00",
-					"name": "Contrast / 2",
-					"slug": "contrast-2"
 				},
 				{
 					"color": "#000",
@@ -93,60 +88,31 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#f6decd",
+					"color": "#62C564",
 					"name": "Base / Two",
 					"slug": "base-2"
+				},
+				{
+					"color": "#FF3C00",
+					"name": "Contrast / 2",
+					"slug": "contrast-2"
 				}
 			]
 		},
 		"typography": {
 			"fontFamilies": [
 				{
-					"fontFace": [
-						{
-							"fontFamily": "Instrument Sans",
-							"fontStyle": "normal",
-							"fontWeight": "400 700",
-							"src": [
-								"file:./assets/fonts/instrument-sans/InstrumentSans-VariableFont_wdth,wght.woff2"
-							]
-						},
-						{
-							"fontFamily": "Instrument Sans",
-							"fontStyle": "italic",
-							"fontWeight": "400 700",
-							"src": [
-								"file:./assets/fonts/instrument-sans/InstrumentSans-Italic-VariableFont_wdth,wght.woff2"
-							]
-						}
-					],
-					"fontFamily": "\"Instrument Sans\", sans-serif",
-					"name": "Instrument Sans",
+					"fontFamily": "\"Ubuntu\", sans-serif",
+					"name": "Ubuntu",
 					"slug": "body"
 				},
 				{
-					"fontFace": [
-						{
-							"fontFamily": "Jost",
-							"fontStyle": "normal",
-							"fontWeight": "100 900",
-							"src": ["file:./assets/fonts/jost/Jost-VariableFont_wght.woff2"]
-						},
-						{
-							"fontFamily": "Jost",
-							"fontStyle": "italic",
-							"fontWeight": "100 900",
-							"src": [
-								"file:./assets/fonts/jost/Jost-Italic-VariableFont_wght.woff2"
-							]
-						}
-					],
-					"fontFamily": "\"Jost\", sans-serif",
-					"name": "Jost",
+					"fontFamily": "\"Ubuntu\", sans-serif",
+					"name": "Ubuntu",
 					"slug": "heading"
 				},
 				{
-					"fontFamily": "-apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
+					"fontFamily": "\"Ubuntu\", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif",
 					"name": "System Sans-serif",
 					"slug": "system-sans-serif"
 				},
