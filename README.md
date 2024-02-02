@@ -8,13 +8,13 @@
 
 ---
 
-# Twenty Twenty-Four
+# Startup Unidos Master
 
 Welcome to the development repository for the default theme that will launch with [WordPress 6.4](https://make.wordpress.org/core/6-4/).
 
 <img width="1920" alt="2023" src="https://github.com/WordPress/twentytwentyfour/assets/1813435/d965b75d-03cd-4365-b963-b3862d482329">
 
-Twenty Twenty-Four is built as a [block theme](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview/). The theme aims to ship with as little CSS as possible: our goal is for all theme styles to be configured through [`theme.json`](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/) and editable through Global Styles. The theme development team will work closely with [Gutenberg](https://github.com/wordpress/gutenberg) contributors to build design tools in the block editor that enable this goal.
+Startup Unidos Master is built as a [block theme](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview/). The theme aims to ship with as little CSS as possible: our goal is for all theme styles to be configured through [`theme.json`](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/) and editable through Global Styles. The theme development team will work closely with [Gutenberg](https://github.com/wordpress/gutenberg) contributors to build design tools in the block editor that enable this goal.
 
 You can view a demo of this theme at [2024.wordpress.net](https://2024.wordpress.net/), which is synced to `trunk` branch of this repository every 2 minutes.
 
@@ -36,7 +36,7 @@ Also, consider enabling [development mode](https://make.wordpress.org/core/2023/
 
 ### Design
 
-The theme is designed in [Figma](https://www.figma.com/file/AlYr03vh4dVimwYwQkTdf6/Twenty-Twenty-Four?type=design&t=C79166eDp3vX7OOD-6). You can contribute by designing one of the [patterns](https://github.com/WordPress/twentytwentyfour/issues?q=is%3Aissue+is%3Aopen+label%3A%22%5BComponent%5D+Block+Patterns%22) planned for Twenty Twenty-Four. 
+The theme is designed in [Figma](https://www.figma.com/file/AlYr03vh4dVimwYwQkTdf6/Twenty-Twenty-Four?type=design&t=C79166eDp3vX7OOD-6). You can contribute by designing one of the [patterns](https://github.com/WordPress/twentytwentyfour/issues?q=is%3Aissue+is%3Aopen+label%3A%22%5BComponent%5D+Block+Patterns%22) planned for Startup Unidos Master. 
 
 As a default WordPress theme, it is important to leverage the existing design system wherever possible. That is the font sizes, [color palette choices](https://github.com/WordPress/twentytwentyfour/pull/106), and [spacing presets](https://github.com/WordPress/twentytwentyfour/pull/102). All patterns and templates will leverage this systems extensively. 
 
@@ -208,7 +208,7 @@ You can install the test-specific development dependencies by running `npm i && 
 
 ## Resources
 
-- [Twenty Twenty-Four Figma Mockups](https://www.figma.com/file/AlYr03vh4dVimwYwQkTdf6/Twenty-Twenty-Four?type=design&node-id=16%3A14852&mode=design&t=yad81XRtp200JLes-1)
+- [Startup Unidos Master Figma Mockups](https://www.figma.com/file/AlYr03vh4dVimwYwQkTdf6/Twenty-Twenty-Four?type=design&node-id=16%3A14852&mode=design&t=yad81XRtp200JLes-1)
 - [Setting up a development environment](https://developer.wordpress.org/block-editor/handbook/tutorials/devenv/)
 - [Block Theme documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview)
 - [Global Styles & theme.json documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)
